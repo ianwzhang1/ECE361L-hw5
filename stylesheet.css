@@ -1,0 +1,11 @@
+button {
+  background-color: red;
+}
+
+.funny {
+  color: lime;
+}
+
+a:hover {
+  color: red;
+}
