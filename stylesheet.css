@@ -1,11 +1,49 @@
-button {
-  background-color: red;
+:root {
+  --beige:#fad0e6;
 }
 
-.funny {
-  color: lime;
+
+body {
+  background-image: url("https://static.wikia.nocookie.net/b__/images/f/f9/Glue_Splatter_BMC.svg/revision/latest/scale-to-width/360?cb=20220529121756&path-prefix=bloons");
+  background-color: teal;
+}
+
+button {
+  background-color: orange;
+  border: none;
+  font-family: sans-serif;
+  font-weight: 1000;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #E7D818;
+}
+
+button:active {
+  background-color: #a19711;
+}
+
+.monkey-image {
+  width: 200px;
+}
+
+#glue-text {
+  color: orange;
+  font-family: sans-serif;
+  font-weight: 1000;
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 5px 0 #fad0e6, -5px 0 purple, 0 5px red, 0 -5px black;
+}
+
+.center-box {
+  height: 100%;
+  margin: 50px 100px 25px;
+  padding: 25px;
+  background-color: #d4e6f7;
 }
 
 a:hover {
-  color: red;
+  color: orange;
 }
